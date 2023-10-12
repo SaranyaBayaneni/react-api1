@@ -1,0 +1,27 @@
+
+<head>
+  <body>
+    <div>
+      
+      <p> Thumps Up</p>
+      <button onClick={handleSubmit2}>Decrement</button>
+      <button onClick={handleSubmit1}>Increment</button>
+    </div>
+  </body>
+  <script>
+     function Orders() {
+  const[counts,setCounts]=useState(0);
+
+  function handleSubmit1()
+  {
+    setCounts(counts+1)
+  }
+  function handleSubmit2()
+  {
+    setCounts(counts-1)
+  }
+  </script>
+</head>
+
+
+export default Orders
